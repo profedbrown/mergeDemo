@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <!-- Meta Data -->
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+    <meta name="description" content="Online Python Editor With Live Syntax Checking">
+    <meta name="keywords" content="Lint,Online,Editor,Python,Syntax-Checking">
+    <meta name="author" content="Ed Brown">
+    <title>COMP2005 Python Quiz</title>
+    <!-- Favicon -->
+</head>
+
+<body>
+<div id="intro">
+    <h1>Python Online Quiz</h1>
+</div>
+<br>
+<div>
+    <form action="/run_code" method="POST">
+        <textarea name="codestuff" id="coding" rows="25" cols="80">ENTER CODE HERE</textarea>
+        <br>
+        <button type="submit" id="run">Run</button>
+    </form>
+    <br>
+    <div id="output">
+        <pre><!-- OUTPUT PLACEHOLDER --></pre>
+    </div>
+    <br>
+</div>
+</body>
+</html>
