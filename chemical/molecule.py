@@ -219,8 +219,9 @@ if __name__ == "__main__":
         formula = input('Enter molecular formula: ')
         m = Molecule(formula)
         print('The molecular mass of {} is {:.7f}\n'.format(m, m.mass()))
-        
+     
         print('The wildly interesting components of {} are:'.format(m))
+
         for a in m:
             print(a)
             
