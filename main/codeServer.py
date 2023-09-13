@@ -39,7 +39,7 @@ def read_template(filename, directory='templates'):
 
 if __name__ == "__main__":
     webServer = HTTPServer((hostName, serverPort), QuizRequestHandler)
-    print("Server has started up http://%s:%s" % (hostName, serverPort))
+    print("Server has started up http://{hostname}:{serverport}")
 
     try:
         webServer.serve_forever()
